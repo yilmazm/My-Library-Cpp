@@ -12,7 +12,7 @@ To use this class, std = c ++ 11 and above are required.
 
 ### Class Members
 
-See the list of class members and explanations.
+See the list of [class members and explanations](https://github.com/yilmazm/My-Library-Cpp/blob/master/Csv_Operations_Vector/Class%20Members).
 
 ## Authors
 
