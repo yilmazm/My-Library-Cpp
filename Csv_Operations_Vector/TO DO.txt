@@ -1,0 +1,6 @@
+- İki crucncher arası 2 tırnak varsa kaldırılıcak.  -> 15,"ahmet sey", 789
+- String işareti (") var mı                         -> hasStringIsaret
+- Cruncherlardan sonraki boşluklar, tablar silinecek-> 15,    as,    897,  455
+- Header (başlık) seçeneği eklenecek                ->hasHeader
+- Sütun silme ekle
+- Satır silme eklea
