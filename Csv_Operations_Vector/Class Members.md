@@ -1,6 +1,6 @@
-## Functions and variables
+# Functions and variables
 
-### Private Variables
+## Private Variables
 
 |Type|Variable|
 |-------------|-------------|
@@ -8,9 +8,9 @@
 |std::string|fileName|
 |std::vector<std::vector<std::string>>|csvTable|
 
-### Public Functions
+## Public Functions
 
-#### Constructors and Destructer
+### Constructors and Destructer
 
 |Type|Variable|
 |-------------|-------------|
@@ -19,7 +19,7 @@
 ||CsvOp(std::vector<std::vector<std::string>> inCsvTable, const char inCruncher = ';');|
 ||~CsvOp();|
 
-#### ... functions
+### ... functions
 
 |Type|Variable|
 |-------------|-------------|
@@ -30,7 +30,7 @@
 |bool|write_to_file();|
 |bool|write_to_file(const std::string &inFileName, const char &inCruncher);|
 
-#### Inline functions
+### Inline functions
 
 |Type|Variable|
 |-------------|-------------|
@@ -38,13 +38,13 @@
 |void|insert(int lineOrder, std::vector<std::vector<std::string>> anotherTable);|
 |void|insert(int lineOrder, const std::vector<std::string> &line);|
 
-#### Static functions
+### Static functions
 
 |Type|Variable|
 |-------------|-------------|
 |std::vector<std::string>|line_to_vector(const std::string &line, char seperator);|
 
-#### Getters and Setters
+### Getters and Setters
 
 |Type|Variable|
 |-------------|-------------|
@@ -54,7 +54,7 @@
 |void|setFileName(const std::string &value);|
 |std::vector<std::vector<std::string>>|getCsvTable() const;|
 
-#### garbarage functions
+### Garbarage functions
 
 |Type|Variable|
 |-------------|-------------|
