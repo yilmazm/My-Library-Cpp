@@ -12,6 +12,7 @@
 
 #### Constructors and Destructer
 
+|-------------|-------------|
 ||CsvOp(char inCruncher = ';');|
 ||CsvOp(std::string inFileName, char inCruncher = ';');|
 ||CsvOp(std::vector<std::vector<std::string>> inCsvTable, const char inCruncher = ';');|
@@ -19,6 +20,7 @@
 
 #### ... functions
 
+|-------------|-------------|
 |void|sort_by_column(int columnOrder);|
 |void|read_csv_file();|
 |std::vector<std::string>|column_list(unsigned int returnColumn, unsigned int searchColumn=0, std::string searchString="");|
@@ -28,16 +30,20 @@
 
 #### Inline functions
 
+|-------------|-------------|
 |void|clear();|
 |void|insert(int lineOrder, std::vector<std::vector<std::string>> anotherTable);|
 |void|insert(int lineOrder, const std::vector<std::string> &line);|
 
 #### Static functions
 
+|-------------|-------------|
 |std::vector<std::string>|line_to_vector(const std::string &line, char seperator);|
 
+|-------------|-------------|
 #### Getters and Setters
 
+|-------------|-------------|
 |char|getCruncher() const;|
 |void|setCruncher(char value);|
 |std::string|getFileName() const;|
@@ -45,5 +51,7 @@
 |std::vector<std::vector<std::string>>|getCsvTable() const;|
 
 #### garbarage functions
+
+|-------------|-------------|
 |void|print_table();|
 |void|print_table(std::vector<std::vector<std::string>> table);|
